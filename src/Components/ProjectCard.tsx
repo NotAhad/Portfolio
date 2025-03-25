@@ -32,7 +32,7 @@ interface ProjectCardProps {
               </a>
             </button>
             <div className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg">
-              {/* VIEW SITE */}
+              Site
             </div>
           </div>
         </div>
