@@ -4,9 +4,10 @@ interface ProjectCardProps {
     description: string;
     language: string;
     github: string;
+    site: string;
   }
   
-  export const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, language, github }) => {
+  export const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, language, github, site }) => {
     return (
       <div>
         <div className="bg-[rgb(30,30,30)] p-4 rounded-lg w-[440px] border-[3px] border-[rgb(40,40,40)] flex flex-col gap-4">
@@ -32,7 +33,9 @@ interface ProjectCardProps {
               </a>
             </button>
             <div className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg">
-              {/* VIEW SITE */}
+            <a href={site} target="_blank" rel="noopener noreferrer" className="font-Tech text-[1.25rem] tracking-[0.1rem]">
+                SITE
+              </a>
             </div>
           </div>
         </div>
