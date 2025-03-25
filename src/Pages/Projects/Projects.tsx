@@ -6,7 +6,7 @@ export const Projects = () => {
         <div>
             <NavBar/>
             <div className="flex justify-center mt-16 py-10 sm:mt-32">
-                <div className="grid grid-cols-[repeat(auto-fit,minmax(455px,1fr))] gap-y-6 w-[90%] justify-items-center">
+                <div className="grid grid-cols-[repeat(auto-fit,minmax(455px,1fr))] gap-y-6 w-[95%] justify-items-center">
                     <ProjectCard 
                         image={"/public/Project1.png"} 
                         title={"PORTFOLIO"}
