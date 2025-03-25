@@ -40,10 +40,10 @@ const Contact = () => {
 
                         <div className={`flex justify-center gap-12 sm:gap-10 transition-all duration-500 sm:mr-32 ${isHovered ? "ml-0 sm:mr-[18rem]" : "sm:ml-[20%]"}`}>
                             <a href="https://github.com/NotAhad" target="_blank" rel="noopener noreferrer">
-                                <img src="public/github.png" alt="GitHub" className="cursor-pointer size-14 sm:size-10" />
+                                <img src="/github.png" alt="GitHub" className="cursor-pointer size-14 sm:size-10" />
                             </a>
                             <a href="https://www.linkedin.com/in/ahad-paracha-6625a2275/" target="_blank" rel="noopener noreferrer">
-                                <img src="public/linkedin.png" alt="LinkedIn" className="cursor-pointer size-14 sm:size-10" />
+                                <img src="/linkedin.png" alt="LinkedIn" className="cursor-pointer size-14 sm:size-10" />
                             </a>
 
                             <div 
@@ -51,7 +51,7 @@ const Contact = () => {
                                 onMouseEnter={() => setIsHovered(true)} 
                                 onMouseLeave={() => setIsHovered(false)}
                             >
-                                <img src="public/gmail.png" alt="Gmail" className="size-14 sm:size-10" />
+                                <img src="/gmail.png" alt="Gmail" className="size-14 sm:size-10" />
                                 <p className="relative top-[0.15rem] font-Tech text-[1.8rem] tracking-[0.05em] sm:tracking-[0em] sm:text-[1.5rem] sm:opacity-0 hover:opacity-100 transition-opacity duration-450">
                                     AAPARACHA09@GMAIL.COM
                                 </p>

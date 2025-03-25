@@ -20,9 +20,9 @@ interface ProjectCardProps {
           </div>
   
           <div className="rounded-lg h-[50px] flex gap-4">
-            <img src="public/react.png" alt="react" className="p-2 h-full min-w-[3.25rem]" />
+            <img src="/react.png" alt="react" className="p-2 h-full min-w-[3.25rem]" />
             <img src={language} alt="language" className="p-2 h-full min-w-[3.25rem]" />
-            <img src="public/tw.png" alt="tailwind" className="p-2 h-full min-w-[3.25rem]" />
+            <img src="/tw.png" alt="tailwind" className="p-2 h-full min-w-[3.25rem]" />
           </div>
   
           <div className="flex gap-10">
