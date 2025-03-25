@@ -10,29 +10,33 @@ export const Projects = () => {
                     <ProjectCard 
                         image={"/public/Project1.png"} 
                         title={"PORTFOLIO"}
-                        description={"This site showcases my skills as a front-end web developer with a focus on clean design & seamless user interactions. It highlights my expertise in creating fully responsive & modern designs that adapt seamlessly across all devices. I integrated EmailJS into the contact form, enabling effortless, backend-free email communication."}
+                        description={"This site showcases my skills as a front-end web developer with a focus on clean design & seamless user interactions. It highlights my expertise in creating fully responsive & modern designs that adapt seamlessly across all devices. I integrated EmailJS into the contact form, enabling effortless backend-free email communication."}
                         language={"/public/ts.png"}
+                        github={"https://github.com/NotAhad/Portfolio"}
                         />
 
                     <ProjectCard 
                         image={"/public/Project2.png"} 
                         title={"TASKLY"}
-                        description={"A dynamic & user-friendly role-based task management web application, where admins can efficiently create & assign tasks through a dedicated dashboard, while employees have a streamlined interface to track their assignments. Featuring custom-built employee data, local storage for persistence & a responsive design."}
+                        description={"A role-based task management web app with an admin dashboard for task creation and assignment & an intuitive employee interface for tracking tasks. Built with a modular component architecture, React Context API for state management & persistent authentication via local storage, along with accessibility best practices & form validation."}
                         language={"/public/js.png"}
+                        github={"https://github.com/NotAhad/Taskly"}
                     />
 
                     <ProjectCard 
                         image={"/public/Project3.png"} 
                         title={"FLOWLANCE"}
-                        description={"A sleek & aesthetic Freelancer Dashboard to help manage projects, clients, & finances efficiently. Featuring interactive Chart.js visualizations, a Kanban board with a drag & drop interface that streamlines project tracking & Material UI for clean & structured data display in a table. All wrapped in a modern & responsive design."}
+                        description={"A sleek & aesthetic Freelancer Dashboard to help manage projects, clients & finances efficiently. Featuring interactive Chart.js visualizations, a Kanban board with a drag & drop interface that streamlines project tracking & Material UI for clean & structured data display in a table. All wrapped in a modern & responsive design."}
                         language={"/public/ts.png"}
+                        github={"https://github.com/NotAhad/Flowlance"}
                     />
 
                     <ProjectCard 
                         image={"/public/Project4.png"} 
                         title={"POKÉOS"}
-                        description={"An interactive web application which integrates the Pokémon API. Featuring a Pokédex to explore detailed Pokémon data, a comparison tool to pit Pokémon against each other, a page to track your favourites & a fun Pokémon guessing game. It's designed for seamless navigation & optimized performance, offering an intuitive & responsive experience."}
+                        description={"A Pokémon web app integrating the Pokémon API for an optimized, accessible experience. Features include a dynamic Pokédex, a Pokémon comparison tool, a favorites tracker with persistent state & a guessing game. Utilizes memoization & debounced input handling. Designed with modular components and best practices in state management."}
                         language={"/public/ts.png"}
+                        github={"https://github.com/NotAhad/PokeOS"}
                     />
                 </div>
             </div>
