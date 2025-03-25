@@ -27,16 +27,23 @@ interface ProjectCardProps {
           </div>
   
           <div className="flex gap-10">
-            <button className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg cursor-pointer ">
+            <button className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg cursor-pointer">
               <a href={github} target="_blank" rel="noopener noreferrer" className="font-Tech text-[1.25rem] tracking-[0.1rem]">
                 GITHUB
               </a>
             </button>
-            <div className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg">
-            <a href={site} target="_blank" rel="noopener noreferrer" className="font-Tech text-[1.25rem] tracking-[0.1rem]">
-                SITE
-              </a>
-            </div>
+
+            {title === "PORTFOLIO" ? (
+              <button className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg opacity-50 cursor-not-allowed">
+                <span className="font-Tech text-[1.25rem] tracking-[0.1rem]">SITE</span>
+              </button>
+            ) : (
+              <button className="bg-[rgb(40,40,40)] h-[50px] w-1/2 rounded-lg cursor-pointer">
+                <a href={site} target="_blank" rel="noopener noreferrer" className="font-Tech text-[1.25rem] tracking-[0.1rem]">
+                  SITE
+                </a>
+              </button>
+            )}
           </div>
         </div>
       </div>
