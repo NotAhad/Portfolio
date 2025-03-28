@@ -98,7 +98,7 @@ const About = () => {
                                     <p className="text-[9.5rem] mt-[8px]">🧠</p>
                                 ) : (
                                     <>
-                                        <p className="font-Tech">CURRENTLY LEARNING GSAP TO ENHANCE USER INTERACTIONS ON WEBSITES</p>
+                                        <p className="font-Tech">CURRENTLY LEARNING NEXT.JS FOR BACKEND</p>
                                     </>
                                 )}
                             </button>
