@@ -19,7 +19,7 @@ const NavBar = () => {
                     [ CONTACT ]
                 </Link>
                 <a 
-                    href="/cv.pdf" 
+                    href="/AhadParachaCV2025.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="cursor-pointer font-Tech sm:text-[1.5rem] border-b-[2.5px] border-transparent hover:border-white"

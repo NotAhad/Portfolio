@@ -31,7 +31,7 @@ export const Projects = () => {
                         description={"A sleek & aesthetic Freelancer Dashboard to help manage projects, clients & finances efficiently. Featuring interactive Chart.js visualizations, a Kanban board with a drag & drop interface that streamlines project tracking & Material UI for clean & structured data display in a table. All wrapped in a modern & responsive design."}
                         language={"/ts.png"}
                         github={"https://github.com/NotAhad/Flowlance"}
-                        site={"https://ahad-pokeos.netlify.app/"}
+                        site={"https://ahad-flowlance.netlify.app/"}
                     />
 
                     <ProjectCard 

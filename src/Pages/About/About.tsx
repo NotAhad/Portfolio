@@ -72,16 +72,16 @@ const About = () => {
                         <div className="col-span-3 flex flex-col sm:flex-row gap-4">
                             <div className="w-full sm:w-[40%] h-32 flex flex-col justify-between">
                                 <div className="h-[45%] flex justify-between">
-                                    <img src="public/html.png" alt="html" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] rounded-tl-lg border-t-[3px] border-l-[3px] border-[rgb(40,40,40)]"/>
-                                    <img src="public/css.png" alt="css" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
-                                    <img src="public/js.png" alt="java script" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
-                                    <img src="public/ts.png" alt="type script" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
-                                    <img src="public/react.png" alt="react" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] rounded-tr-lg border-t-[3px] border-r-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/html.png" alt="html" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] rounded-tl-lg border-t-[3px] border-l-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/css.png" alt="css" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/js.png" alt="java script" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/ts.png" alt="type script" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-t-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/react.png" alt="react" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] rounded-tr-lg border-t-[3px] border-r-[3px] border-[rgb(40,40,40)]"/>
                                 </div>
                                 
                                 <div className="h-[45%] flex justify-between">
-                                    <img src="public/tw.png" alt="tail wind" className="p-2 h-full bg-[rgb(30,30,30)] rounded-bl-lg border-b-[3px] border-l-[3px] border-[rgb(40,40,40)]"/>
-                                    <img src="public/gsap.png" alt="gsap" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)]  border-b-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="/tw.png" alt="tail wind" className="p-2 h-full bg-[rgb(30,30,30)] rounded-bl-lg border-b-[3px] border-l-[3px] border-[rgb(40,40,40)]"/>
+                                    <img src="" alt="" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)]  border-b-[3px] border-[rgb(40,40,40)]"/>
                                     <img src="" alt="" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-b-[3px] border-[rgb(40,40,40)]"/>
                                     <img src="" alt="" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] border-b-[3px] border-[rgb(40,40,40)]"/>
                                     <img src="" alt="" className="p-2 h-full min-w-[3.6rem] bg-[rgb(30,30,30)] rounded-br-lg border-b-[3px] border-r-[3px] border-[rgb(40,40,40)]"/>
